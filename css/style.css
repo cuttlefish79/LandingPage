@@ -6,6 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  height: 200vh;
 }
 
 a {
@@ -26,6 +27,7 @@ ul {
   margin: 0 auto;
 }
 
+
 /* nav */
 
 .nav {
@@ -36,6 +38,16 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding: 1.2em 0;
+  background-color: #000;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .nav a {
@@ -91,4 +103,15 @@ ul {
 
 .header-button:hover {
   opacity: 0.9;
+}
+
+/* main */
+
+.section-padding {
+  padding: 2em 6em;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
 }
